@@ -6,6 +6,8 @@ This repository includes the XGBoost models and the R scripts to infer the activ
 **Topographic mapping of the glioblastoma proteome reveals a triple axis model of intra-tumoral heterogeneity** <br/>
 *Lam KHB, Djuric U, Leon AJ, Hui W, Lee SCE, Batruch I, Faust K, Koritzinsky M, Richer M, Diamandis P* **(under review)**
 
+The models take as input proteomics (LFQ) of rna (TPM) expression data.
+
 Execute the following command to analyze the sample data:
 ```
 Rscript predictXGB.R --data sample/sample_prot.rds \
